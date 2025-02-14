@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day!</title>
+    <link rel="stylesheet" href="body VALS.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day Cil!</h1>
+        <p>Semoga kalo bete sama aku ga bisa lama-lama dan ga jadi korban cuek.</p>
+        <img src="gradient_heart.png" alt="Hati" class="heart-image">
+        <br>
+        <button onclick="showMessage()">Kirim Cinta</button>
+        <br>
+        <br>
+        <div id="message" class="hidden">Kapan bisa aku ajak maen lagi? ❤️</div>
+    </div>
+    <script>
+        function showMessage() {
+            document.getElementById('message').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
